@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #111;
+    color: white;
+    padding: 20px 50px;
+  }
+  
+  .navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Container styling for centering the form */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Styling for form titles */
+h1, h2 {
+    color: #5c677d;
+}
+
+/* Form group styling for input organization */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Labels styling for better readability */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input and button styling */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Card information section styling */
+.card-information {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+/* Styling details for small inputs like expiry and CVV */
+.card-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* Styling the checkout button */
+.payButton {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.payButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Close button style if present */
+.close {
+    float: right;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: #ccc;
+    border-radius: 50%;
+    color: white;
+}
+
+/* Ensure each input element has proper spacing */
+input {
+    margin-top: 5px;
+}
